@@ -1,0 +1,28 @@
+.tablero {
+    text-align: center;
+  }
+  
+  .contenedor {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 306px;
+    margin: 20px auto;
+  }
+  
+  .celdaJuego {
+    width: 100px;
+    height: 100px;
+    box-shadow: 0 0 0 1px #13011d;
+    border: 1px solid #5310aa;
+    cursor: pointer;
+    line-height: 100px;
+    font-size: 50px;
+    color :#5310aa;
+  }
+  .reinicio{
+    width: 15%;
+    height: 10%;
+    background-color: #f02099;
+    color:azure;
+    border-radius: 10px;
+  }
